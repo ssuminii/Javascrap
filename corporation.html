@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporate Info</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="corporation.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="back-last-page">
+            <a href="index.html" class="back-last-page-image">
+                <img src="corp-page-assets/back-to-last-page.png" alt="back-to-last-page">
+            </a>
+        </div>
+        <div class="title">
+            <h1>기업 정보</h1>
+        </div>
+        <div class="menu-image">
+            <button type="menu">
+                <img src="corp-page-assets/menu.png" alt="menu">
+            </button>
+        </div>
+    </header>
+
+    <section class="row" id="stocks">
+        <div class="col-12" id="stock">
+            <div class="carousel-wrapper">
+                <div id="carousel">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="favorite">
+        <div>
+            <h2>관심 기업</h2>
+        </div>
+        <div class="f-corpList">
+            <div class="f-listHeader">
+                <div class="f-header-corpName">
+                    <strong>기업명</strong>
+                </div>
+                <div class="f-header-sales">
+                    <strong>매출</strong>
+                </div>
+                <div class="f-header-salesIncrease">
+                    <strong>매출증감율</strong>
+                </div>
+                <div class="f-header-asset">
+                    <strong>자산</strong>
+                </div>
+                <div class="f-header-netIncome">
+                    <strong>당기순이익</strong>
+                </div>
+            </div>
+            <div class="f-listContent">
+            </div>
+        </div>
+    </section>
+    <section class="popular">
+        <div>
+            <h2>인기 기업</h2>
+        </div>
+        <img id="search-show" src="corp-page-assets/search.png" alt="">
+        <div class="search-container">
+            <input type="text" id="corpSearch" placeholder="기업 검색...">
+            <button id="searchBtn">검색</button>
+        </div>
+        <div class="p-corpList">
+            <div class="p-listHeader">
+                <div class="p-header-corpName">
+                    <strong>기업명</strong>
+                </div>
+                <div class="p-header-sales">
+                    <strong>매출</strong>
+                </div>
+                <div class="p-header-salesIncrease">
+                    <strong>매출증감율</strong>
+                </div>
+                <div class="p-header-asset">
+                    <strong>자산</strong>
+                </div>
+                <div class="p-header-netIncome">
+                    <strong>당기순이익</strong>
+                </div>
+            </div>
+
+            <div class="p-listContent">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <span class="m-copyright">JavaScrap9조 @ 2024. All rights reserved.</span>
+                    <div class="links">
+                        <ul class="footer-links">
+                            <div>
+                                <li>이용약관</li>
+                                <li>공지사항</li>
+                                <li>개인정보 보호정책</li>
+                            </div>
+                            <div>
+                                <li>증권 고객센터</li>
+                                <li>약관 및 정책</li>
+                            </div>
+                        </ul>
+                        <div class="sns-links">
+                            <a href="#">
+                                <img src="asset/free-icon-youtube.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="asset/free-icon-facebook.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="asset/free-icon-twitter.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="asset/free-icon-instagram.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="asset/free-icon-line.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <span class="d-copyright">JavaScrap9조 @ 2024. All rights reserved.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="corporation.js"></script>
+</body>
+
+</html>
