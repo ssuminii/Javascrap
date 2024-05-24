@@ -1,0 +1,198 @@
+/* 공통 영역 */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f4f8;
+}
+
+.container {
+  margin: 0 auto;
+  height: 100vh;
+  padding: 0px;
+}
+
+/* Header */
+header {
+  height: 80px;
+  padding: 16px 23px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back-last-page-image img {
+  display: block;
+  width: 1.25rem;
+  height: auto;
+}
+
+.title h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.menu-image button {
+  background-color: white;
+  border: none;
+}
+
+.menu-image img {
+  display: block;
+  width: 1.25rem;
+  height: auto;
+}
+
+/* Info 영역 */
+.company-info {
+  padding: 20px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 10px;
+}
+
+.company-code-info {
+  margin-bottom: 4px;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.company-name-info {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.right-company-info {
+  width: 30%;
+}
+
+.company-scorecard-info {
+  margin: 5px 0;
+  padding: 20px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 10px;
+}
+
+.scorecard-title-info {
+  padding: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.scorecard-year-info {
+  font-weight: 300;
+  font-size: 12px;
+  color: #878787;
+}
+
+.scorecard-item-info {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.account-name-info {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 12px;
+  color: #878787;
+  width: 35%;
+}
+
+.current-amount-info {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  width: 55%;
+  text-align: right;
+}
+
+.mobile {
+  display: none;
+}
+
+/* Chart 영역 */
+.graph {
+  margin: 5px 0;
+  width: 100%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 10px;
+}
+
+.tab {
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: -0.3px;
+  display: block;
+  padding: 6.5px 14px;
+  font-weight: 500;
+  color: #767678;
+  border-radius: 20px;
+  background-color: #f3f5f7;
+  border: none;
+  text-align: center;
+}
+
+#tabSales {
+  margin-left: 20px;
+}
+
+.tabs {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.tab.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.graph .header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.select {
+  max-width: 30%;
+}
+
+.scorecard-title-info,
+.graph-header {
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: #1e1e23;
+}
+
+@media screen and (max-width: 769px) {
+    .left-company-info {
+      text-align: center;
+    }
+    .right-company-info {
+      width: 100%;
+    }
+    .mobile {
+      display: inline-block;
+    }
+    .desktop {
+      display: none;
+    }
+    .title h1 {
+      font-size: 1.2rem;
+    }
+    .graph .header {
+      padding: 0;
+    }
+    #tabSales {
+      margin-left: 0px;
+    }
+  }

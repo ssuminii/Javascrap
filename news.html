@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="corporation.css">
+</head>
+<body>
+    <header class="header">
+        <div class="back-last-page">
+            <a href="index.html" class="back-last-page-image">
+                <img src="corp-page-assets/back-to-last-page.png" alt="back-to-last-page">
+            </a>
+        </div>
+        <div class="title">
+            <h1>기업 뉴스</h1>
+        </div>
+        <div class="menu-image">
+            <button type="menu">
+                <img src="corp-page-assets/menu.png" alt="menu">
+            </button>
+        </div>
+    </header>
+    <section class="news-body">
+        <h2 class="newsTitle">뉴스</h2>
+        <div class="news-area">
+            <nav class="navbar-white bg-body-tertiary">
+                <form class="container-fluid justify-content-start">
+                    <button class="btn btn-outline-success me-2 realtime-news" id="realtime type="button">실시간 속보</button>
+                    <button class="btn btn-outline-success me-2 major-news" type="button">주요 뉴스</button>
+                    <button class="btn btn-outline-success me-2 popular-news" type="button">많이 본 뉴스</button>
+
+                </form>
+            </nav>
+
+            <div id="realtimeNewsContent" class="news-main">
+                <section id="news-board">
+                    <div class="row news">
+                        <div class="news-text col-lg-8 col-md-8 col-sm-8">
+                            <h5>비트코인 급등, 7700만원 돌파하나</h5>
+                            <p>(서울=연합뉴스) 류효림 기자 = 미 가상화폐 거래소 코인베이스에 따르면 미 동부시간 26일(현지시간) 오후 8시 50분(서부 오후 5시 50분) 기준
+                                비트코인...</p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <img class="news-img-size"
+                                src="https://imgnews.pstatic.net/image/001/2024/02/27/PYH2024022712070001300_P4_20240227170140679.jpg?type=w647">
+                        </div>
+
+                </section>
+            </div>
+            <div id="majorNewsContent" style="display: none;">
+                21
+            </div>
+            <div id="popularNewsContent" style="display: none;">
+                55
+            </div>
+            <div class="row" id="MoreButton">
+                <div class="col-lg-12 text-center">
+                    <button id="moreButton" class="btn btn-outline-primary">뉴스 더 보기 ></button>
+                </div>
+            </div>
+        </div>
+</div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <span class="m-copyright">JavaScrap9조 @ 2024. All rights reserved.</span>
+                <div class="links">
+                    <ul class="footer-links">
+                        <div>
+                            <li>이용약관</li>
+                            <li>공지사항</li>
+                            <li>개인정보 보호정책</li>
+                        </div>
+                        <div>
+                            <li>증권 고객센터</li>
+                            <li>약관 및 정책</li>
+                        </div>
+                    </ul>
+                    <div class="sns-links">
+                        <a href="#">
+                            <img src="asset/free-icon-youtube.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="asset/free-icon-facebook.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="asset/free-icon-twitter.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="asset/free-icon-instagram.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="asset/free-icon-line.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <span class="d-copyright">JavaScrap9조 @ 2024. All rights reserved.</span>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="module" src="news.js"></script>
+
+</body>
+</html>
